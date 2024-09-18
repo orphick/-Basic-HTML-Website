@@ -1,2 +1,2 @@
-# -Basic-HTML-Website
-a basic HTML website from roadmap.sh
+# Basic-HTML-Website
+A Basic HTML website from roadmap.sh
