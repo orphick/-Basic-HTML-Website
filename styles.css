@@ -1,0 +1,49 @@
+.hero {
+    border: 1px solid black;
+    padding: 20px 20px 100px 20px;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+}
+
+.rightNav>ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+
+.rightNav>ul>li>a {
+    text-decoration: none;
+    list-style: none;
+    color: #111;
+}
+
+.leftNav {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+
+.heroBanner {
+    text-align: center;
+    margin-top: 80px;
+}
+
+.heroBanner h1 {
+    font-size: 50px;
+    font-family: "Nanum Pen Script";
+    text-transform: capitalize;
+}
+
+.heroBanner p {
+    font-size: 15px;
+    font-weight: 200;
+    font-family: roboto;
+}
