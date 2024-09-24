@@ -151,3 +151,10 @@
     padding-top:15px;
     color:#ccc;
 }
+
+footer p{
+    margin:70px 0 20px;
+    text-align: center;
+    font-size:20px;
+    font-family: "Nanum Pen Script";
+}
