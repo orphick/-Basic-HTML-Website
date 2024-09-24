@@ -1,6 +1,6 @@
 .hero {
     border: 1px solid black;
-    padding: 20px 20px 100px 20px;
+    padding: 20px 20px 150px 20px;
 }
 
 .navbar {
@@ -46,4 +46,81 @@
     font-size: 15px;
     font-weight: 200;
     font-family: roboto;
+}
+
+.about {
+    display: flex;
+    border-bottom: 2px solid black;
+}
+
+.about-project-header,
+.about-work-header,
+.about-education-header {
+    font-family: "Nanum Pen Script";
+    text-transform: capitalize;
+    font-size: 25px;
+    margin: 15px 15px 0;
+}
+
+.about-project {
+    border-right: 2px solid black;
+    width: 35%
+}
+
+.about-project-text {
+    border-bottom: 2px solid black;
+    padding: 10px 15px;
+}
+
+.about-project-text a {
+    font-family: roboto;
+    color: black;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 13px;
+}
+
+.about-work-box,
+.about-education-box {
+    border-bottom: 2px solid black;
+    padding-bottom: 15px;
+    padding-right: 35px;
+}
+
+.about-education-box:last-child,
+.about-work-box:last-child,
+.about-project-text:last-child {
+    border-bottom: none;
+}
+
+.about-work-box-header,
+.about-education-box-header {
+    font-size: 20px;
+    font-family: "Nanum Pen Script";
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 5px;
+}
+
+.about-work-text,
+.about-education-text {
+    font-family: robot;
+    font-size: 15px;
+    margin-left: 20px;
+    margin-bottom: 5px;
+}
+
+.about-work-link {
+    font-family: roboto;
+    font-size: 12px;
+    margin-left: 20px;
+    text-decoration: none;
+}
+
+.about-education {
+    border-left: 2px solid black;
+}
+
+.about-education-box:last-child {
+    padding-bottom: 20px;
 }
